@@ -3,41 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="This is Calculator App Made With The Help of CSS , HTML and JavaScript">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="Index.css">
     <link rel="shortcut icon" href="Images/Favicon.png" type="image/x-icon">
     <title>Calculator App</title>
     <link rel="stylesheet" href="Index.css">
 </head>
 <body>
+    
     <div class="Main">
+        
+        <label class="form-check-label" for="flexSwitchCheckDefault" style="color:white">Night Mode</label>
+        <div class="form-check form-switch">
+        <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
+        </div>
+
         <div class="Text">
-            <input type="text">
+            <input type="text" class="Inp">
         </div>
         <div class="Buttons">
-            <div class="B" id="B1">C</div>
+            <div class="B" id="B1">^</div>
             <div class="B" id="B2">(</div>
             <div class="B" id="B3">)</div>
             <div class="B" id="B4">+</div>
-            <div class="B" id="B5">/</div>
-            <div class="B" id="B6">*</div>
-            <div class="B" id="B7">-</div>
-            <div class="B" id="B8">^</div>
-            <div class="B" id="B9">1</div>
-            <div class="B" id="B10">2</div>
-            <div class="B" id="B11">3</div>
-            <div class="B" id="B12">4</div>
-            <div class="B" id="B13">5</div>
-            <div class="B" id="B14">6</div>
-            <div class="B" id="B15">7</div>
-            <div class="B" id="B16">8</div>
-            <div class="B" id="B17">9</div>
+            <div class="B" id="B5">7</div>
+            <div class="B" id="B6">8</div>
+            <div class="B" id="B7">9</div>
+            <div class="B" id="B8">-</div>
+            <div class="B" id="B9">4</div>
+            <div class="B" id="B10">5</div>
+            <div class="B" id="B11">6</div>
+            <div class="B" id="B12">*</div>
+            <div class="B" id="B13">1</div>
+            <div class="B" id="B14">2</div>
+            <div class="B" id="B15">3</div>
+            <div class="B" id="B16">/</div>
+            <div class="B" id="B17">.</div>
             <div class="B" id="B18">0</div>
-            <div class="B" id="B19">=</div>
-            <div class="B" id="B20">.</div>
+            <div class="B" id="B19">C</div>
+            <div class="B" id="B20">=</div>
         </div>
     </div>
     <script src="Index.js">
